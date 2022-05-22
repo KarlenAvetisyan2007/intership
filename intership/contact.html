@@ -4,30 +4,28 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Contact Us</title>
-	<link rel="stylesheet" type="text/css" href="css/contact.css">
+	<link rel="stylesheet" type="text/css" href="css/contactpage.css">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-	<header class="fixed-top header">
-		<div class="container-fluid allheader d-flex align-items-center">
-			<div class="container d-flex align-items-center big">
+	<header class="header d-flex align-items-center justify-content-center">
+			<div class="container d-flex align-items-center big h-100">
+				<a href="home.html">
 				<img src="images/logo.png">
-				<div class="nav-menu menu d-flex">
-					<ul class="menu-ul d-flex align-items-center justify-content-center">
-						<li>
-							<a href="#">About</a>
-						</li>
-						<li class="active">
-							<a href="#">Contact Us</a>
-						</li>
-					</ul>
-				</div>
+				</a>
+				<ul class="menu-ul d-flex justify-content-center align-items-center p-0 m-0 h-100">
+					<li class="secondli d-flex align-items-center">
+						<a href="about.html">About</a>
+					</li>
+					<li class="active d-flex align-items-center">
+						<a href="#">Contact us</a>
+					</li>
+				</ul>
 			</div>
-		</div>
 	</header>
-		<section class="section">
-			<div class="container-fluid mr-0 allsection d-flex">
-			<div class="left d-flex align-items-center justify-content-center">
+		<section class="section d-flex justify-content-center">
+			<div class="row container-fluid mr-0 allsection d-flex p-0">
+			<div class="col-sm-12 col-lg-6 left d-flex align-items-center justify-content-center">
 				<div class="allcontactinfo">
 						<h2>Ready to get started</h2>
 					<div class="info">
@@ -48,39 +46,40 @@
 					</div>
 				</div>
 			</div>
-			<div class="right">
-				<div class="map">
-					<img src="images/map.png">
+			<div class="right col-sm-12 col-lg-6 m-0 p-0">
+				<div class="map h-100">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3067.7622353957495!2d-75.55259888195256!3d39.74499142333958!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c6fd4059f26203%3A0x1d66ddbe81dadc32!2s913%20N%20Market%20St%20suite%20200-a%2C%20Wilmington%2C%20DE%2019801%2C%20%D0%A1%D0%A8%D0%90!5e0!3m2!1sru!2s!4v1653065225317!5m2!1sru!2s" width="100%" height="100%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 				</div>
 			</div>
 			</div>
 		</section>
 		<footer class="footer">
-			<div class="container-fluid">
-				<div class="container d-flex align-items-center bigfooter">
-					<img src="images/footerlogo.png">
-					<div class="nav-menu footer-menu d-flex">
-						<ul class="menu-ul-footer d-flex align-items-center justify-content-center">
-							<li>
-								<a href="#">Terms & Conditions</a>
-							</li>
-							<li>
-								<a href="#">Privacy Policy</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			
-			<div class="container d-flex align-items-center justify-content-flex-end bottomoffooter">
-				<div class="d-flex align-items-center">
-					<p class="followus">Follow Us</p>
-					<a href="#"><img src="images/fb.png"></a>
-					<a href="#"><img src="images/tw.png"></a>
-					<a href="#"><img src="images/yt.png"></a>
-					<a href="#"><img src="images/in.png"></a>
-				</div>
+		<div class="container-fluid h-100 p-0">
+			<div class="container footer-top d-flex align-items-center">
+				<img src="images/footerlogo.png">
+				<ul class="footermenuparent d-flex justify-content-space-between align-items-center p-0 m-0">
+					<li>
+						<a href="#" class="footermenu">Terms & Conditions</a>
+					</li>
+					<li class="with-margin">
+						<a href="#" class="footermenu">Privacy Policy</a>
+					</li>
+				</ul>
 			</div>
+			<div class="container d-flex footer-bottom">
+				<ul class="d-flex h-100 bottomparent p-0 m-0">
+					<li class="textfollow h-100 d-flex align-items-center">
+						<a href="#" class="footermenu">Follow us</a>
+					</li>
+					<li class="d-flex h-100 align-items-center logos">
+						<img src="images/fb.png">
+						<img src="images/tw.png" class="wmargin">
+						<img src="images/yt.png" class="wmargin">
+						<img src="images/in.png" class="wmargin">
+					</li>
+				</ul>
 			</div>
-		</footer>
+		</div>
+	</footer>
 </body>
 </html>

@@ -1,0 +1,135 @@
+*{
+	list-style: none;
+}
+body{
+	font-family: 'Poppins';
+}
+.header{
+	height: 100px;
+	background-color: #FFFFFF;
+	box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
+	width: 100%;
+	position: fixed;
+}
+.big{
+	justify-content: space-between;
+}
+.menu-ul li a{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 36px;
+	color: #565555;
+	text-decoration: none;
+}
+.menu-ul{
+	display: flex;
+	justify-content: space-between;
+}
+.active{
+	border-bottom: 2.5px solid #526DB4;
+	margin-left: 55px;
+	text-align: center;
+}
+.menu-ul .secondli{
+	border-bottom: 2.5px solid white;
+	text-align: center;
+}
+.menu-ul li:hover{
+	border-bottom: 2.5px solid #526DB4;
+}
+.allsection{
+	margin: 0;
+}
+.left{
+	width: 40%;
+	height: 795px;
+}
+.right{
+	width: 60%;
+	height: 795px;
+}
+.allcontactinfo h2{
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 63px;
+	text-align: center;
+}
+.info{
+	display: flex;
+	align-items: center;
+	margin-top: 35px;
+}
+.infotext{
+	margin:0px 0px 0px 30px;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 300;
+	font-size: 18px;
+	line-height: 27px;
+}
+.footer{
+	height: 292px;
+	background-color: #526DB4;
+}
+.footer-top{
+	justify-content: space-between;
+	height: 50%;
+}
+.footermenuparent{
+	justify-content: space-between;
+	width: 39%;
+}
+.footermenu{
+	text-decoration: none;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	color: #FFFFFF;
+}
+.with-margin{
+	margin-left: 10%
+}
+.footer-bottom{
+	height: 50%;
+	justify-content: flex-end;
+}
+.logos .wmargin{
+ 	margin-left: 20px;
+}
+.textfollow{
+	margin-right: 20px;
+}
+@media(max-width: 599px){
+	.menu-ul li a{
+		font-size: 16px;
+	}
+	.big img{
+		width: 120px;
+		margin-right: 20px;
+	}
+	.footermenu{
+		font-size: 19px;
+	}
+	.footermenuparent{
+		justify-content: flex-end;
+	}
+	.footer-top img{
+		width: 120px;
+	}
+	.logos img{
+		width: 25px;
+	}
+	.active{
+		margin-left: 20px;
+	}
+}
+@media (max-width: 630px){
+	.big img{
+		margin-right: 20px;
+	}
+}
